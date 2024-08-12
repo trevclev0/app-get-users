@@ -1,4 +1,47 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: lightcyan;
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Users img {
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.Users li {
+    width: 13rem;
+    height: 13rem;
+    padding: 2rem;
+}
+
+.Users a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
