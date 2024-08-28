@@ -30,7 +30,7 @@ export default function UserList() {
       </ul>
       {hasMoreUsers && (
         <button type="button" onClick={getUsers}>
-          Load Users
+          Load More Users
         </button>
       )}
     </>
