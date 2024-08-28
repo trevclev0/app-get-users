@@ -1,9 +1,10 @@
+import "./UserList.css";
 import { useEffect } from "react";
-import { User } from "./User";
-import { UserProps } from "./UserProps";
-import useGetUsers from "./useGetUsers";
+import User from "../User/User";
+import { UserProps } from "../../types/UserProps";
+import useGetUsers from "../../hooks/useGetUsers";
 
-export default function Users() {
+export default function UserList() {
   const { users, getUsers, hasMoreUsers } = useGetUsers();
 
   useEffect(() => {
@@ -12,8 +13,8 @@ export default function Users() {
 
   return (
     <>
-      <h1>Dev Team</h1>
-      <ul className="Users">
+      <h1>Engineering Team</h1>
+      <ul className="UserList">
         {users?.map((user: UserProps) => {
           return (
             <User

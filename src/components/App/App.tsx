@@ -1,10 +1,10 @@
-import "./styles.css";
-import Users from "./Users";
+import "./App.css";
+import UserList from "../UserList/UserList";
 
 export default function App() {
   return (
     <div className="App">
-      <Users />
+      <UserList />
     </div>
   );
 }

@@ -1,9 +1,16 @@
-import { UserProps } from "./UserProps";
+import "./User.css";
+import { UserProps } from "../../types/UserProps";
 
-export function User({ id, first_name, last_name, avatar, email }: UserProps) {
+export default function User({
+  id,
+  first_name,
+  last_name,
+  avatar,
+  email,
+}: UserProps) {
   const fullName = `${first_name} ${last_name}`;
   return (
-    <li key={id}>
+    <li className="User" key={id}>
       <img alt={`${fullName}Avatar`} src={avatar} />
       <h3>{fullName}</h3>
       <address>
@@ -12,5 +19,3 @@ export function User({ id, first_name, last_name, avatar, email }: UserProps) {
     </li>
   );
 }
-
-export default User;

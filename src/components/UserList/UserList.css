@@ -1,0 +1,17 @@
+.UserList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserList li {
+    width: 13rem;
+    height: 13rem;
+    padding: 1.5rem 1.5rem 4rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}

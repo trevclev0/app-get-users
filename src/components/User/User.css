@@ -1,0 +1,17 @@
+.User {
+    background-color: white;
+    border-radius: 1.5rem;
+    margin: 2rem;
+}
+
+.User img {
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.User a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}

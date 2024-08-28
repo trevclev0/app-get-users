@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UserProps } from "./UserProps";
+import { UserProps } from "../types/UserProps";
 
 const url = new URL("/api/users", "https://reqres.in");
 
