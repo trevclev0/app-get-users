@@ -1,15 +1,12 @@
-# Loading Users Challenge
+# Get App Users
 
-## Requirements
+A simple React app which uses JavaScript `fetch` to get user data from the
+[ReqRes API](https://reqres.in) and loads said data into the webpage
 
-> **_NOTE:_** Use your whatever library/framework (or none!) you are most comfortable with:
+## What I learned
 
-- Wire up the "Load Users" button to make a request to https://reqres.in/api/users
-- Load the data returned from the above request into a list.
-
-## Simple Pseudocode
-- Fetch the data on initial page render
-  - Bind the data to the list
-  - Map/extract the appropriate user data 
-  - Render the user data appropriately
-- Wire button to make the call to fetch more user data
+- Simple, frugal CI/CD and site hosting via [GitHub](https://github.com) + [Cloudflare Pages](https://pages.cloudflare.com/)
+- Learned a simple, effective way to organize files/directories of a React project
+- Utilized a custom hook for
+  - Managing state of applicable user data
+  - Keeping component code clean
